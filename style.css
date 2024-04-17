@@ -18,16 +18,20 @@ body {
 h1, h2 ,h3 {
     color: rgb(233, 56, 56);
     margin-bottom: 10px;
-    text-align: center;
+    text-align: left;
   
 }
 
+.intro h2{
+    text-align: center;
+}
 body p{
     text-indent: 1em;
 }
 
 h1{
     font-size: 1.8rem;
+    text-align: center;
 }
 
 h2{
