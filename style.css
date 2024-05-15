@@ -33,15 +33,19 @@ body {
     border-right: 1px solid;
     border-color: #1f295c;
     padding-right: 2%;
-    padding-top: 3.5%;
-    padding-bottom: 3.5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 
+}
+
+.design-selection li{
+    border-top: 1px solid #1f295c;
 }
 
 .design-selection {
     position: absolute;
     top: 560px;
-    left: 70%;
+    left: 70%;    
 }
 
 header {
@@ -53,7 +57,7 @@ header {
 h3 {
     color: rgb(233, 56, 56);
     margin-bottom: 10px;
-    text-align: left;
+   
   
 }
 
@@ -80,8 +84,27 @@ h3{
     font-size: 1.2rem;
 }
 
-a{
+.main-supporting .explanation :nth-child(2)::first-letter {
+    font-size: 300%;
+    font-family: 'Times New Roman', Times, serif;
+    float: left;
+
+}
+
+a:hover {
+    background-color: azure;
+    border-radius: 10%;
+    
+}
+
+a:visited {
+    font-weight: normal;
+    color: blueviolet;
+}
+
+a:link {
     color:  rgb(233, 56, 56);
+    font-weight: 600;
 }
 
 .summary{
@@ -99,14 +122,61 @@ abbr{
 
 footer {
     margin: 4%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: wrap;
+    
+    
 }
 
 footer a {
-    border: 2px solid;
+    border: 2px solid yellow;
+    
 }
 
 li {
     list-style: none;
     padding-bottom: 1em;
     text-align: center;
+}
+
+.benefits {
+    border-top: 1px solid #1f295c;
+    border-bottom: 1px solid #1f295c;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+        p{
+            width: 70%;
+            order: 1;
+            display: flex;
+            flex-grow: 7;
+        }
+}
+
+.benefits h3 {
+    display: flex;
+    height: 3;
+    justify-content: center;
+    align-items: center;
+    order: 2;
+    flex-grow: 3;
+}
+
+.participation {
+    display: flex;
+    flex-flow: row wrap;
+    border-top: 1px solid #1f295c;
+
+    p{
+        width: 50%;
+        flex-grow: 1;
+    }
+
+    h3{
+        justify-content: center;
+        width: 50%;
+        align-items: center;
+        flex-grow: 1;
+    }
 }
