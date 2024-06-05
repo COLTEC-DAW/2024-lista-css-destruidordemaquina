@@ -63,6 +63,7 @@ h3 {
 
  p{
     text-indent: 1em;
+    font-size: 1em;
 }
 
 h1{
@@ -113,7 +114,7 @@ a:link {
 }
 
 abbr{
-    font-family: small-caps;
+    font-variant: small-caps;
 }
 
 #design-archives {
@@ -131,13 +132,15 @@ footer {
 
 footer a {
     border: 2px solid yellow;
+    padding: 0.5em;
     
 }
 
 li {
     list-style: none;
-    padding-bottom: 1em;
+    padding-bottom: 0.5em;
     text-align: center;
+    padding-top: 0.5em;
 }
 
 .benefits {
