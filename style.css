@@ -180,3 +180,40 @@ li {
         flex-grow: 1;
     }
 }
+
+@media screen and (max-width: 768px) 
+{
+    .design-selection {
+        position: static;
+    }
+
+    header {
+        height: auto;
+
+    }
+
+    p{
+        text-indent: none;
+    }
+
+   .explanation {
+        border-right: 0;
+    }
+
+   .participation {
+        display: flex;
+        flex-flow: column;
+    }
+}
+
+@media print 
+{
+   body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   }
+
+   .banner {
+    background-color: aliceblue;
+        color: aqua;
+   }
+}
